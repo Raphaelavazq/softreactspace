@@ -1,0 +1,101 @@
+/* === Palette Reference === */
+/* Cosmic Latte:     #FEF6E5 (main), #fffdf9, #fff9f0, #fcefd7, #fae9c6, #f7e1b3, #f3dba3, #eacb88, #dfb866, #cfa249, #a07b30 */
+/* Apricot:          #FABA9E (main), #fef6f7, #fcebef, #f9d1d9, #f7aab0, #f28897, #e86a7e, #d15069, #b33d53, #933043, #712430, #521620 */
+/* English Violet:   #533F5B (main), #f5f3f6, #e8e3ec, #d3c9da, #b4a5c0, #977ea4, #7d628a, #694f73, #533f5b, #443448, #2f2431, #1c151d */
+/* China Rose:       #AE697C (main), #fdf4f6, #fae7ec, #f3cbd7, #e8a3b6, #db7791, #b05a72, #944b60, #793c4e, #5e2e3d, #431f2b, #2d141c */
+/* Cherry Blossom:   #F7AAB0 (main), #fff7f8, #ffeef0, #ffdbe0, #ffc4ce, #feaab9, #fb8fa5, #ec718a, #d55771, #b44559, #903643, #5d1e27 */
+
+/* === Semantic Tokens === */
+:root {
+  /* Backgrounds */
+  --color-bg: #FEF6E5; /* Cosmic Latte main */
+  --color-bg-alt: #fff9f0; /* lighter Cosmic Latte */
+
+  /* Typography */
+  --color-text: #533F5B; /* English Violet main */
+  --color-text-invert: #FEF6E5; /* Inverted background */
+
+  /* Primary Accent (Buttons / important actions) */
+  --color-accent: #FABA9E; /* Apricot main */
+  --color-accent-hover: #F7AAB0; /* Cherry Blossom main */
+
+  /* Supporting Accent */
+  --color-accent-alt: #AE697C; /* China Rose main */
+
+  /* Buttons */
+  --color-btn-bg: var(--color-accent);
+  --color-btn-text: var(--color-text);
+  --color-btn-hover-bg: var(--color-accent-hover);
+  --color-btn-hover-text: var(--color-text);
+
+  /* Borders */
+  --color-border: #d3c9da; /* English Violet 200 */
+}
+
+/* === Palette Shades === */
+:root {
+  /* Cosmic Latte */
+  --cosmic-latte-50: #fffdf9;
+  --cosmic-latte-100: #fff9f0;
+  --cosmic-latte-200: #fef6e5;
+  --cosmic-latte-300: #fcefd7;
+  --cosmic-latte-400: #fae9c6;
+  --cosmic-latte-500: #f7e1b3;
+  --cosmic-latte-600: #f3dba3;
+  --cosmic-latte-700: #eacb88;
+  --cosmic-latte-800: #dfb866;
+  --cosmic-latte-900: #cfa249;
+  --cosmic-latte-950: #a07b30;
+
+  /* Apricot */
+  --apricot-50: #fef6f7;
+  --apricot-100: #fcebef;
+  --apricot-200: #f9d1d9;
+  --apricot-300: #f7aab0;
+  --apricot-400: #faba9e;
+  --apricot-500: #e86a7e;
+  --apricot-600: #d15069;
+  --apricot-700: #b33d53;
+  --apricot-800: #933043;
+  --apricot-900: #712430;
+  --apricot-950: #521620;
+
+  /* English Violet */
+  --english-violet-50: #f5f3f6;
+  --english-violet-100: #e8e3ec;
+  --english-violet-200: #d3c9da;
+  --english-violet-300: #b4a5c0;
+  --english-violet-400: #977ea4;
+  --english-violet-500: #7d628a;
+  --english-violet-600: #694f73;
+  --english-violet-700: #6d517b;
+  --english-violet-800: #443448;
+  --english-violet-900: #533f5b;
+  --english-violet-950: #1c151d;
+
+  /* China Rose */
+  --china-rose-50: #fdf4f6;
+  --china-rose-100: #fae7ec;
+  --china-rose-200: #f3cbd7;
+  --china-rose-300: #e8a3b6;
+  --china-rose-400: #ae697c;
+  --china-rose-500: #b05a72;
+  --china-rose-600: #944b60;
+  --china-rose-700: #793c4e;
+  --china-rose-800: #5e2e3d;
+  --china-rose-900: #431f2b;
+  --china-rose-950: #2d141c;
+
+  /* Cherry Blossom */
+  --cherry-blossom-50: #fff7f8;
+  --cherry-blossom-100: #ffeef0;
+  --cherry-blossom-200: #ffdbe0;
+  --cherry-blossom-300: #ffc4ce;
+  --cherry-blossom-400: #f7aab0;
+  --cherry-blossom-500: #fb8fa5;
+  --cherry-blossom-600: #ec718a;
+  --cherry-blossom-700: #d55771;
+  --cherry-blossom-800: #b44559;
+  --cherry-blossom-900: #903643;
+  --cherry-blossom-950: #5d1e27;
+}
